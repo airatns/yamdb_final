@@ -1,2 +1,5 @@
-# yamdb_final
-yamdb_final
+# YaMDb
+
+## Workflow status badge
+
+![example workflow](https://github.com/airatns/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
