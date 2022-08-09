@@ -1,8 +1,8 @@
 from csv import DictReader
-from django.core.management import BaseCommand
 
-from users.models import User
+from django.core.management import BaseCommand
 from reviews.models import Category, Comment, Genre, Review, Title
+from users.models import User
 
 """If you need to reload the data from the CSV file,
 first delete the db.sqlite3 file to destroy the database.

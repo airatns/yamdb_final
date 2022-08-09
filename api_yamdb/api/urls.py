@@ -3,8 +3,8 @@ from rest_framework.routers import DefaultRouter
 from rest_framework_nested import routers
 from users.views import SignUp, Token, UserAccountDetail, UserViewSet
 
-from .views import GenresViewSet, CategoriesViewSet, TitlesViewSet, \
-    ReviewViewSet, CommentViewSet
+from .views import (CategoriesViewSet, CommentViewSet, GenresViewSet,
+                    ReviewViewSet, TitlesViewSet)
 
 app_name = 'api'
 

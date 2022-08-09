@@ -1,9 +1,7 @@
 from django.forms import CharField, EmailField
-
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
-
-from users.models import User, CHOICES
+from users.models import CHOICES, User
 
 
 class SignUpSerializer(serializers.ModelSerializer):

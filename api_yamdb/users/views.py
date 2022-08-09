@@ -1,18 +1,16 @@
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
-
 from rest_framework import filters, status, viewsets
 from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import AccessToken
-
 from users.models import User
 from users.permissions import IsAdmin
-from users.serializers import AdminSerializer, MeSerializer
-from users.serializers import SignUpSerializer, TokenSerializer
+from users.serializers import (AdminSerializer, MeSerializer, SignUpSerializer,
+                               TokenSerializer)
 
 
 def create_confirmation_code(username, email):
