@@ -87,7 +87,7 @@ Python, Django, PostgreSQL, Docker, Gunicorn, Nginx, Ubuntu, Telegram
 
 ## **Запуск:**
 
-Выполнить в терминале команды
+Выполнить в терминале на локале команды
 
 >*git add .* \
 >*git commit -m '<your_comment>'* \
