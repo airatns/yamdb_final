@@ -10,7 +10,7 @@
 
 2. Сборка и обновление докер-образа на *Docker Hub*
 
-3. Автоматический деплой на сервер в Яндекс.Облако при пуше
+3. Автоматический деплой на сервер в Яндекс.Облако
 
 4. Отправка уведомления в Telegram, что процесс деплоя успешно завершился
 
@@ -82,15 +82,15 @@ Python, Django, PostgreSQL, Docker, Gunicorn, Nginx, Ubuntu, Telegram
 
 Скопировать файлы *docker-compose.yaml* и *nginx/default.conf* на сервер в 
 
->*home/<username>/docker-compose.yaml* \
->*home/<username>/nginx/default.conf*
+>*home/<your_username>/docker-compose.yaml* \
+>*home/<your_username>/nginx/default.conf*
 
 ## **Запуск:**
 
 Выполнить в терминале команды
 
 >*git add .* \
->*git commit -m '<comment>'* \
+>*git commit -m '<your_comment>'* \
 >*git push*
 
 Результатом автоматизации будет сообщение:
@@ -105,7 +105,7 @@ Python, Django, PostgreSQL, Docker, Gunicorn, Nginx, Ubuntu, Telegram
 
 ## **Проверить, что приложение успешно разворачивается:**
 
->*http://localhost/admin/*
+>*http://158.160.8.173/admin/*
 
 ## **Техническая документация**
 
