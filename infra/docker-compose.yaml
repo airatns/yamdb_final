@@ -11,8 +11,7 @@ services:
     image: airatns/yamdb:latest
     command: >
       sh -c "python manage.py collectstatic --noinput &&
-             python manage.py migrate &&
-             python manage.py runserver 0.0.0.0:8000"
+             python manage.py migrate"
     restart: always
     volumes:
       - static_value:/app/static/
