@@ -1,4 +1,4 @@
-# YaMDb workflow
+# YaMDb_final
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -8,8 +8,6 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-
-# YaMDb_final
 
 В данном проекте реализовал задачу по настройке для приложения **YaMDb** *Continuous Integration* и *Continuous Deployment* с использованием **GitHub Actions**:
 
