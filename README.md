@@ -2,6 +2,15 @@
 
 ![example workflow](https://github.com/airatns/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+<img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+
 # YaMDb_final
 
 В данном проекте реализовал задачу по настройке для приложения **YaMDb** *Continuous Integration* и *Continuous Deployment* с использованием **GitHub Actions**:
@@ -23,10 +32,6 @@ YaMDb - это проект, который собирает отзывы пол
 Первоначальная сборка YaMDb в контейнерах Docker реализована по сслыке:
 
 >*https://github.com/airatns/infra_sp2*
-
-## **Стек технологий**
-
-Python, Django, PostgreSQL, Docker, Gunicorn, Nginx, Ubuntu, Telegram
 
 ## **Регистрация нового пользователя**
 Для регистрации сделайте POST-запрос с данными **email** и **username** на адрес:
